@@ -2,32 +2,20 @@
 
 ## Overview
 
-UniSource is a platform designed to bridge the gap between university students and the software industry by facilitating student contributions to open-source projects managed by industry organizations. The platform is built with a focus on fostering collaboration, learning, and real-world experience for students.
-
-
-## About Us
-
-This project is a collaborative effort by students of the Faculty of Technology at the University of Sri Jayewardenepura, as part of our ICT project. We aim to create a seamless connection between academia and industry, fostering practical experience and innovation.
+UniSource is a platform developed by students from the Faculty of Technology at the University of Sri Jayewardenepura as part of our ICT project (IT3081 – ICT Project). It aims to bridge the gap between university students and the software industry by facilitating student contributions to open-source projects managed by industry organizations. By participating in real-world projects, students gain practical experience, enhance their technical skills, and establish connections with industry professionals.
 
 ## Global Architecture Diagram
 
-Below is the global architecture diagram of the UniSource platform:
+UniSource adopts a microservice architecture for backend scalability and flexibility. The frontend is designed using React.js for component-based UI development, ensuring a responsive and intuitive user experience. The client-server architecture facilitates communication via RESTful APIs, maintaining separation of concerns between frontend and backend components.
 
 ![Global Architecture Diagram](architecture_diagram.svg)
 
-## Frontend
-
-The frontend of the UniSource platform is developed using React, providing an intuitive and responsive user interface for students and organizations to interact with the system.
-
-## Backend (Spring Boot with Microservices)
-
-The backend of the UniSource platform is developed using Spring Boot with a microservices architecture, providing robust and scalable solutions for managing various aspects of the platform.
-
 ## Technologies Used
 
-- Spring Boot
-- React JS
-- MySQL
+- Frontend: Developed using React.js, Material UI, and Bootstrap for responsive UI design and user-friendly interfaces.
+- Backend: Implemented with Spring Boot, providing robust RESTful API development, authentication, and business logic handling.
+- Testing: Unit testing with JUnit, integration testing with Postman, and end-to-end testing with Selenium ensure system reliability and functionality.
+- Version Control: GitHub facilitates collaborative development and version management, ensuring code quality and traceability.
 
 ## Additional Resources
 
